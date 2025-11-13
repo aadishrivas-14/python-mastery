@@ -1,7 +1,7 @@
-# Python Mastery Progress Tracker
+# Python Mastery Progress Tracker - Quant Focus
 
 ## Overview
-Track your progress through the 7-day Python mastery journey.
+Track your progress through the 8-day Python mastery journey for quant interviews.
 
 ## Day 1: Python Basics ✅
 - [x] Setup complete
@@ -51,18 +51,33 @@ Track your progress through the 7-day Python mastery journey.
 
 **Status:** Ready to start
 
-## Day 7: Real Projects ✅
+## Day 7: Quantitative Finance Projects ✅
 - [x] Setup complete
-- [x] 5 projects created
+- [x] 5 quant projects created
 - [x] Project stubs written
 - [ ] Projects completed
 
 **Projects:**
-1. [ ] CLI Task Manager
-2. [ ] Web Scraper
-3. [ ] REST API
-4. [ ] Data Analyzer
-5. [ ] Async Chat Server
+1. [ ] Options Pricer (Black-Scholes, Greeks, IV)
+2. [ ] Market Simulator (Order book, matching engine)
+3. [ ] Risk Calculator (VaR, CVaR, stress testing)
+4. [ ] Backtesting Engine (Sharpe, Sortino, equity curves)
+5. [ ] Portfolio Optimizer (Mean-variance, efficient frontier)
+
+**Status:** Ready to start
+
+## Day 8: DSA for Quant Interviews ✅
+- [x] Setup complete
+- [x] 25 quant DSA problems created
+- [x] Tests written
+- [ ] All tests passing
+
+**Problem Categories:**
+- [ ] Array/String (5 problems)
+- [ ] Math/Probability (5 problems)
+- [ ] Dynamic Programming (5 problems)
+- [ ] Graph/Tree (5 problems)
+- [ ] System Design (5 problems)
 
 **Status:** Ready to start
 
@@ -70,21 +85,40 @@ Track your progress through the 7-day Python mastery journey.
 
 ## Total Progress
 - **Exercises:** 0/115 completed
-- **Projects:** 0/5 completed
-- **Overall:** 0% complete
+- **Quant Projects:** 0/5 completed
+- **Quant DSA:** 0/25 completed
+- **Overall:** 0/145 completed (0%)
 
 ## Next Steps
 1. Start with Day 1: `cd day1-basics`
 2. Run tests: `pytest tests/ -v`
 3. Implement functions in `src/basics.py`
-4. Move to Day 2 when all tests pass
+4. Progress through Days 2-6
+5. Build quant projects (Day 7)
+6. Solve quant DSA (Day 8)
+
+## Quant Interview Prep Checklist
+- [ ] Complete all 115 core exercises
+- [ ] Build all 5 quant projects
+- [ ] Solve all 25 quant DSA problems
+- [ ] Understand Black-Scholes formula
+- [ ] Implement order book from scratch
+- [ ] Calculate VaR (3 methods)
+- [ ] Code portfolio optimizer
+- [ ] Practice explaining solutions
 
 ## Tips
 - Work through days sequentially
 - Complete all exercises before moving on
 - Run tests frequently
 - Read hints in TODO comments
-- Google when stuck
-- Take breaks between days
+- Understand the math behind quant problems
+- Practice explaining your approach
+- Focus on time/space complexity
+- Test edge cases thoroughly
+
+## Target
+🎯 **HFT/Trading/Quant Interviews**
+⏱️ **3-4 weeks of focused study**
 
 Good luck! 🚀
