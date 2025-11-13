@@ -24,6 +24,7 @@ wheels/
 venv/
 ENV/
 env/
+.venv
 
 # Testing
 .pytest_cache/
@@ -41,3 +42,9 @@ htmlcov/
 # OS
 .DS_Store
 Thumbs.db
+
+# Project specific
+*.db
+*.db-shm
+*.db-wal
+data/

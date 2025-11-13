@@ -20,6 +20,11 @@ Complete Python mastery roadmap: From absolute beginner to advanced patterns and
 ## 🎯 Quick Start
 
 ```bash
+# Setup virtual environment
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac (Windows: venv\Scripts\activate)
+pip install -r requirements.txt
+
 # Day 1 - Start here!
 cd day1-basics
 python3 -m pytest tests/ -v
@@ -30,6 +35,8 @@ vim src/basics.py
 # Test specific exercise
 python3 -m pytest tests/test_basics.py::test_hello_world -v
 ```
+
+See [SETUP.md](SETUP.md) for detailed setup instructions.
 
 ---
 
