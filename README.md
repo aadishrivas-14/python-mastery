@@ -7,12 +7,12 @@ Complete Python mastery roadmap: From absolute beginner to advanced patterns and
 - **Day 1:** Python Basics (20 exercises)
 - **Day 2:** Data Structures (20 exercises)
 - **Day 3:** Object-Oriented Programming (15 exercises)
-- **Day 4:** Advanced Python (15 exercises)
+- **Day 4:** Advanced Python (20 exercises)
 - **Day 5:** Design Patterns (15 exercises)
-- **Day 6:** Algorithms & DSA (30 exercises)
+- **Day 6:** Algorithms & Data Structures (25 exercises)
 - **Day 7:** Real Projects (5 projects)
 
-**Total: 120 exercises + 5 projects**
+**Total: 115 exercises + 5 projects**
 
 ---
 
@@ -78,29 +78,27 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 - Encapsulation (private, protected)
 - Property decorators
 - Class methods, static methods
-- Abstract classes
 - Magic methods (`__add__`, `__len__`, etc.)
+- Singleton pattern
 
-**Exercises:** Bank Account, Shape Hierarchy, Animal Classes, Vehicle System, Employee Management
+**Exercises:** Person, BankAccount, Rectangle, Student, Counter, Animal hierarchy, Vehicle system, Vector, Book, Stack, Temperature, Singleton
 
 **Time:** 6-8 hours
 
 ---
 
-### Day 4: Advanced Python (15 exercises)
+### Day 4: Advanced Python (20 exercises)
 **Topics:**
 - Decorators (function, class)
-- Context managers (`with` statement)
 - Generators and yield
+- Context managers (`with` statement)
 - Iterators protocol
-- Exception handling (try/except/finally)
-- Custom exceptions
-- File handling (read, write, modes)
+- Async/await basics
+- Exception handling
+- File operations
 - Regular expressions
-- Modules and packages
-- `*args` and `**kwargs`
 
-**Exercises:** Custom decorators, Context managers, Generator functions, Exception handling, Regex patterns
+**Exercises:** timer, memoize, retry, validate_types, fibonacci_gen, prime_gen, file_reader, pipeline, Timer, FileHandler, Transaction, Lock, Range, Cycle, Chain, ZipLongest, fetch_data, gather_results, with_timeout, AsyncQueue
 
 **Time:** 6-8 hours
 
@@ -108,38 +106,25 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 
 ### Day 5: Design Patterns (15 exercises)
 **Topics:**
-- Singleton pattern
-- Factory pattern
-- Builder pattern
-- Observer pattern
-- Strategy pattern
-- Decorator pattern
-- Adapter pattern
-- Command pattern
-- Template method
-- State pattern
+- Creational: Singleton, Factory, Builder, Prototype
+- Structural: Adapter, Decorator, Facade, Proxy
+- Behavioral: Observer, Strategy, Command, State, Iterator, Template Method, Chain of Responsibility
 
-**Exercises:** Implement each pattern with real-world examples
+**Exercises:** Implement 15 design patterns with real-world examples
 
 **Time:** 6-8 hours
 
 ---
 
-### Day 6: Algorithms & DSA (30 exercises)
+### Day 6: Algorithms & Data Structures (25 exercises)
 **Topics:**
-- Sorting (bubble, merge, quick, heap)
-- Searching (binary, linear)
-- Two pointers technique
-- Sliding window
-- Hash tables
-- Linked lists
-- Stacks and queues
-- Trees (binary, BST)
-- Graphs (DFS, BFS)
-- Dynamic programming basics
-- Recursion and backtracking
+- Sorting (bubble, selection, insertion, merge, quick)
+- Searching (linear, binary, jump, interpolation, exponential)
+- Graphs (BFS, DFS, Dijkstra, Bellman-Ford, Floyd-Warshall)
+- Dynamic Programming (fibonacci, knapsack, LCS, LIS, coin_change)
+- Data Structures (Trie, MinHeap, BST, AVL, Graph)
 
-**Exercises:** 30 LeetCode-style problems (Easy to Medium)
+**Exercises:** 25 algorithm implementations covering sorting, searching, graphs, DP, and advanced data structures
 
 **Time:** 8-10 hours
 
@@ -147,11 +132,11 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 
 ### Day 7: Real Projects (5 projects)
 **Projects:**
-1. **CLI Todo App** - CRUD operations, file persistence
-2. **Web Scraper** - BeautifulSoup, requests
-3. **REST API** - Flask/FastAPI basics
-4. **Data Analysis** - Pandas, NumPy basics
-5. **Mini Game** - Snake or Tic-Tac-Toe
+1. **CLI Task Manager** - CRUD operations, file persistence, argparse
+2. **Web Scraper** - BeautifulSoup, requests, CSV/JSON export
+3. **REST API** - Flask, SQLite, CRUD endpoints
+4. **Data Analyzer** - Pandas, NumPy, Matplotlib, statistical analysis
+5. **Async Chat Server** - asyncio, TCP sockets, multiple clients
 
 **Time:** 8-10 hours
 
@@ -186,11 +171,32 @@ python-mastery/
 │   ├── tests/test_algorithms.py # 30 tests
 │   └── README.md
 ├── day7-projects/
-│   ├── todo_app/
-│   ├── web_scraper/
-│   ├── rest_api/
-│   ├── data_analysis/
-│   └── mini_game/
+│   ├── task-manager/
+│   │   ├── src/task_manager.py
+│   │   ├── tests/
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   ├── web-scraper/
+│   │   ├── src/scraper.py
+│   │   ├── tests/
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   ├── rest-api/
+│   │   ├── src/api.py
+│   │   ├── tests/
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   ├── data-analyzer/
+│   │   ├── src/analyzer.py
+│   │   ├── tests/
+│   │   ├── requirements.txt
+│   │   └── README.md
+│   └── chat-server/
+│       ├── src/server.py
+│       ├── src/client.py
+│       ├── tests/
+│       ├── requirements.txt
+│       └── README.md
 └── README.md
 ```
 
@@ -274,13 +280,13 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 - Create classes
 - Use inheritance
 - Implement polymorphism
-- Master OOP concepts
+- Master magic methods
 
-### Day 4: ✅ 15/15 exercises
+### Day 4: ✅ 20/20 exercises
 - Write decorators
-- Use context managers
-- Handle exceptions
-- Work with files
+- Use generators
+- Create context managers
+- Work with async/await
 
 ### Day 5: ✅ 15/15 exercises
 - Implement design patterns
@@ -288,11 +294,12 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 - Write maintainable code
 - Apply patterns to problems
 
-### Day 6: ✅ 30/30 exercises
+### Day 6: ✅ 25/25 exercises
 - Implement sorting algorithms
-- Solve DSA problems
-- Use two pointers
+- Master searching techniques
+- Solve graph problems
 - Apply dynamic programming
+- Build advanced data structures
 
 ### Day 7: ✅ 5/5 projects
 - Build real applications
