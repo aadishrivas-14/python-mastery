@@ -1,13 +1,13 @@
-# Day 7: Real-World Projects
+# Day 7: Quantitative Finance Projects
 
-Build 5 complete projects applying all concepts learned.
+Build 5 production-ready quant projects for HFT/trading interviews.
 
 ## Projects
-1. **CLI Task Manager** - Command-line todo app with file persistence
-2. **Web Scraper** - Extract data from websites with BeautifulSoup
-3. **REST API** - Flask API with CRUD operations
-4. **Data Analyzer** - Pandas-based data analysis tool
-5. **Chat Server** - Async TCP chat server with multiple clients
+1. **Options Pricer** - Black-Scholes, Greeks, implied volatility
+2. **Market Simulator** - Order book, matching engine, market making
+3. **Risk Calculator** - VaR, CVaR, stress testing, portfolio risk
+4. **Backtesting Engine** - Strategy testing, performance metrics, Sharpe ratio
+5. **Portfolio Optimizer** - Mean-variance, efficient frontier, risk parity
 
 ## Structure
 Each project has:
@@ -24,8 +24,8 @@ pytest tests/ -v
 ```
 
 ## Learning Goals
-- Apply OOP, design patterns, and algorithms
-- Work with external libraries
-- Write production-quality code
-- Handle errors and edge cases
-- Write comprehensive tests
+- Apply quantitative finance concepts
+- Implement pricing models
+- Build trading systems
+- Calculate risk metrics
+- Optimize portfolios

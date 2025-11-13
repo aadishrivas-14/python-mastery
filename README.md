@@ -10,9 +10,10 @@ Complete Python mastery roadmap: From absolute beginner to advanced patterns and
 - **Day 4:** Advanced Python (20 exercises)
 - **Day 5:** Design Patterns (15 exercises)
 - **Day 6:** Algorithms & Data Structures (25 exercises)
-- **Day 7:** Real Projects (5 projects)
+- **Day 7:** Quantitative Finance Projects (5 projects)
+- **Day 8:** DSA for Quant Interviews (25 problems)
 
-**Total: 115 exercises + 5 projects**
+**Total: 115 exercises + 5 quant projects + 25 quant DSA problems**
 
 ---
 
@@ -130,13 +131,27 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 
 ---
 
-### Day 7: Real Projects (5 projects)
+### Day 7: Quantitative Finance Projects (5 projects)
 **Projects:**
-1. **CLI Task Manager** - CRUD operations, file persistence, argparse
-2. **Web Scraper** - BeautifulSoup, requests, CSV/JSON export
-3. **REST API** - Flask, SQLite, CRUD endpoints
-4. **Data Analyzer** - Pandas, NumPy, Matplotlib, statistical analysis
-5. **Async Chat Server** - asyncio, TCP sockets, multiple clients
+1. **Options Pricer** - Black-Scholes, Greeks, implied volatility, binomial trees
+2. **Market Simulator** - Order book, matching engine, market making
+3. **Risk Calculator** - VaR, CVaR, stress testing, portfolio risk
+4. **Backtesting Engine** - Strategy testing, Sharpe/Sortino, equity curves
+5. **Portfolio Optimizer** - Mean-variance, efficient frontier, risk parity, Black-Litterman
+
+**Time:** 10-12 hours
+
+---
+
+### Day 8: DSA for Quant Interviews (25 problems)
+**Topics:**
+- Array/String: moving_average, max_profit_k_transactions, longest_consecutive, merge_intervals, rain_water
+- Math/Probability: random_sampling, reservoir_sampling, shuffle_array, expected_value, monte_carlo_pi
+- Dynamic Programming: optimal_trading, max_profit_cooldown, best_time_with_fee, stock_with_transaction_limit, arbitrage_detection
+- Graph/Tree: shortest_path_dag, topological_sort, detect_cycle, mst, lca
+- System Design: LRUCache, TimeSeriesDB, OrderBookSnapshot, RateLimiter, CircularBuffer
+
+**Exercises:** 25 quant-specific DSA problems commonly asked in HFT/trading interviews
 
 **Time:** 8-10 hours
 
@@ -302,10 +317,16 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 - Build advanced data structures
 
 ### Day 7: ✅ 5/5 projects
-- Build real applications
-- Integrate concepts
-- Create portfolio pieces
-- Deploy projects
+- Build quant finance applications
+- Implement pricing models
+- Calculate risk metrics
+- Optimize portfolios
+
+### Day 8: ✅ 25/25 problems
+- Solve quant-specific DSA problems
+- Master probability algorithms
+- Implement system designs
+- Optimize for HFT interviews
 
 ---
 
@@ -342,11 +363,11 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 - ✅ Optimize code
 - ✅ Write clean code
 
-### Expert Level (Day 7)
-- ✅ Build real projects
-- ✅ Integrate libraries
-- ✅ Deploy applications
-- ✅ Portfolio ready
+### Expert Level (Day 7-8)
+- ✅ Build quant projects
+- ✅ Implement pricing models
+- ✅ Solve quant DSA problems
+- ✅ HFT interview ready
 
 ---
 
