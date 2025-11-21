@@ -1,19 +1,19 @@
-# Python Mastery in 7 Days - Zero to Hero
+# Python Mastery in 8 Days - Zero to Hero
 
-Complete Python mastery roadmap: From absolute beginner to advanced patterns and algorithms in one week!
+Complete Python mastery roadmap: From absolute beginner to advanced patterns and algorithms!
 
 ## 📊 Overview
 
 - **Day 1:** Python Basics (20 exercises)
-- **Day 2:** Data Structures (20 exercises)
-- **Day 3:** Object-Oriented Programming (15 exercises)
-- **Day 4:** Advanced Python (20 exercises)
-- **Day 5:** Design Patterns (15 exercises)
-- **Day 6:** Algorithms & Data Structures (25 exercises)
+- **Day 2:** Object-Oriented Programming (15 exercises)
+- **Day 3:** Advanced Python (20 exercises)
+- **Day 4:** Design Patterns (15 exercises)
+- **Day 5:** Custom Data Structures from Scratch (25 structures)
+- **Day 6:** Algorithms (25 exercises)
 - **Day 7:** Quantitative Finance Projects (5 projects)
 - **Day 8:** DSA for Quant Interviews (25 problems)
 
-**Total: 115 exercises + 5 quant projects + 25 quant DSA problems**
+**Total: 95 exercises + 25 data structures + 5 quant projects + 25 quant DSA problems**
 
 ---
 
@@ -40,7 +40,7 @@ See [SETUP.md](SETUP.md) for detailed setup instructions.
 
 ---
 
-## 📅 7-Day Roadmap
+## 📅 8-Day Roadmap
 
 ### Day 1: Python Basics (20 exercises)
 **Topics:**
@@ -59,24 +59,7 @@ See [SETUP.md](SETUP.md) for detailed setup instructions.
 
 ---
 
-### Day 2: Data Structures (20 exercises)
-**Topics:**
-- Lists (methods, slicing, operations)
-- Tuples (immutability, packing/unpacking)
-- Sets (operations, methods)
-- Dictionaries (CRUD, methods)
-- Collections module (Counter, defaultdict, deque)
-- List/Dict/Set comprehensions
-- Iterators and generators
-- Lambda functions
-
-**Exercises:** Array manipulation, Hash maps, Stack, Queue, Deque operations, Set operations, Dictionary problems
-
-**Time:** 6-8 hours
-
----
-
-### Day 3: Object-Oriented Programming (15 exercises)
+### Day 2: Object-Oriented Programming (15 exercises)
 **Topics:**
 - Classes and objects
 - Attributes and methods
@@ -95,7 +78,7 @@ See [SETUP.md](SETUP.md) for detailed setup instructions.
 
 ---
 
-### Day 4: Advanced Python (20 exercises)
+### Day 3: Advanced Python (20 exercises)
 **Topics:**
 - Decorators (function, class)
 - Generators and yield
@@ -112,7 +95,7 @@ See [SETUP.md](SETUP.md) for detailed setup instructions.
 
 ---
 
-### Day 5: Design Patterns (15 exercises)
+### Day 4: Design Patterns (15 exercises)
 **Topics:**
 - Creational: Singleton, Factory, Builder, Prototype
 - Structural: Adapter, Decorator, Facade, Proxy
@@ -124,7 +107,20 @@ See [SETUP.md](SETUP.md) for detailed setup instructions.
 
 ---
 
-### Day 6: Algorithms & Data Structures (25 exercises)
+### Day 5: Custom Data Structures from Scratch (25 structures)
+**Topics:**
+- Basic: Dynamic Array, Linked Lists, Stack, Queue, Hash Table
+- Intermediate: BST, AVL Tree, Red-Black Tree, Heaps, Trie, Union-Find, Segment Tree
+- Advanced: B-Tree, B+ Tree, Skip List, Bloom Filter, LRU/LFU Cache, Fenwick Tree, Suffix Array, Rope
+- Industry Applications: Order Book, Patient DB, Call Router, CDN Cache, Time Series DB
+
+**Structures:** 25 data structures built from scratch with industry use cases
+
+**Time:** 10-12 hours
+
+---
+
+### Day 6: Algorithms (25 exercises)
 **Topics:**
 - Sorting (bubble, selection, insertion, merge, quick)
 - Searching (linear, binary, jump, interpolation, exponential)
@@ -172,25 +168,33 @@ python-mastery/
 │   ├── src/basics.py           # TODO: Implement
 │   ├── tests/test_basics.py    # 20 tests
 │   └── README.md
-├── day2-data-structures/
-│   ├── src/data_structures.py  # TODO: Implement
-│   ├── tests/test_ds.py        # 20 tests
-│   └── README.md
-├── day3-oop/
+├── day2-oop/
 │   ├── src/oop.py              # TODO: Implement
 │   ├── tests/test_oop.py       # 15 tests
 │   └── README.md
-├── day4-advanced/
+├── day3-advanced/
 │   ├── src/advanced.py         # TODO: Implement
-│   ├── tests/test_advanced.py  # 15 tests
+│   ├── tests/test_advanced.py  # 20 tests
 │   └── README.md
-├── day5-design-patterns/
+├── day4-design-patterns/
 │   ├── src/patterns.py         # TODO: Implement
 │   ├── tests/test_patterns.py  # 15 tests
 │   └── README.md
+├── day5-data-structures/
+│   ├── src/
+│   │   ├── basic/              # 8 structures
+│   │   ├── intermediate/       # 8 structures
+│   │   ├── advanced/           # 9 structures
+│   │   └── industry/           # 5 applications
+│   ├── tests/
+│   │   ├── test_basic.py
+│   │   ├── test_intermediate.py
+│   │   ├── test_advanced.py
+│   │   └── test_industry.py
+│   └── README.md
 ├── day6-algorithms/
 │   ├── src/algorithms.py       # TODO: Implement
-│   ├── tests/test_algorithms.py # 30 tests
+│   ├── tests/test_algorithms.py # 25 tests
 │   └── README.md
 ├── day7-projects/
 │   ├── task-manager/
@@ -292,29 +296,29 @@ python3 -m pytest tests/test_basics.py::test_hello_world -v
 - Use control flow
 - Create functions
 
-### Day 2: ✅ 20/20 exercises
-- Master built-in data structures
-- Use comprehensions
-- Work with collections
-- Understand iterators
-
-### Day 3: ✅ 15/15 exercises
+### Day 2: ✅ 15/15 exercises
 - Create classes
 - Use inheritance
 - Implement polymorphism
 - Master magic methods
 
-### Day 4: ✅ 20/20 exercises
+### Day 3: ✅ 20/20 exercises
 - Write decorators
 - Use generators
 - Create context managers
 - Work with async/await
 
-### Day 5: ✅ 15/15 exercises
+### Day 4: ✅ 15/15 exercises
 - Implement design patterns
 - Understand SOLID principles
 - Write maintainable code
 - Apply patterns to problems
+
+### Day 5: ✅ 25/25 structures
+- Build data structures from scratch
+- Understand internal implementations
+- Optimize time/space complexity
+- Apply to industry use cases
 
 ### Day 6: ✅ 25/25 exercises
 - Implement sorting algorithms

@@ -1,5 +1,5 @@
-import sys
-sys.path.insert(0, '../src')
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../src'))
 from oop import *
 
 def test_person():
